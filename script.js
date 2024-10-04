@@ -14,5 +14,13 @@ if (palindrome(word)) {
     console.log(`${word} is not a palindrome`);
 }
 
+// Function to generate a number from 1 to 5
+function GenerateRandomNumber() {
+    return Math.floor(Math.random() * 5) + 1;
+}
 
+// Function to check if a number is even or odd
+function isEven(num) {
+    return num % 2 === 0;
+}
 
