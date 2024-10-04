@@ -14,3 +14,5 @@ if (palindrome(word)) {
     console.log(`${word} is not a palindrome`);
 }
 
+
+
