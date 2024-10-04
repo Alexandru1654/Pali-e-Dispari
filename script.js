@@ -24,3 +24,32 @@ function isEven(num) {
     return num % 2 === 0;
 }
 
+// Request input from user
+const userSelect = prompt("choose even or odd").toLocaleLowerCase();
+const userNumber = parseInt(prompt("Enter a number from 1 to 5;"));
+
+// Generate a random number for the computer
+const computerNumber = GenerateRandomNumber();
+
+console.log('you have chosen:')
+
+console.log('Your number')
+
+console.log('PC number')
+
+const sum = UserNumber + computerNumber;
+console.log('Sum: ${Sum}');
+
+// Check if the sum is even or odd
+const evensum = isEven(sum);
+
+const sumEven = isEven(sum); // Check if the sum is even
+const userChoice = prompt("Choose 'even' or 'odd':").toLowerCase();
+
+// Winner check
+if ((sumEven && userChoice === 'even') || (!sumEven && userChoice === 'odd')) {
+    console.log('You win!');
+} else {
+    console.log('You lose!');
+}
+
